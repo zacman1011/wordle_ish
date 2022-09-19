@@ -26,8 +26,7 @@ config :wordle_ish, WordleIshWeb.Endpoint,
   secret_key_base: "SwzV0I1QqPm1du3LmiOY7/3pqUiRl8RTjJjtia9Y0w77SN1LR+45RI4/QOP1Rsdv",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
-    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
+    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
   ]
 
 # ## SSL Support

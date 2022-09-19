@@ -1,5 +1,8 @@
-<div class="w-full flex justify-center align-center h-screen border">
+<div class="w-full grid grid-cols-1 justify-items-center items-center h-screen border bg-gray-900" phx-window-keyup="letter_press">
+    <div class="w-3/4 text-center flex justify-center items-center">
+        <.wordle_show_table word_length={@word_length} guess_matrix={@guess_matrix} />
+    </div>
     <div class="w-3/4 text-center">
-        HELLO
+        <.keyboard />
     </div>
 </div>

@@ -1,0 +1,24 @@
+## generated on the fly for the wordle table so do not get picked up when searching for css classes to keep. This file gets them picked up so that they can all be used in the generation.
+# grid-cols-1
+# grid-cols-2
+# grid-cols-3
+# grid-cols-4
+# grid-cols-5
+# grid-cols-6
+# grid-cols-7
+# grid-cols-8
+# grid-cols-9
+# grid-cols-10
+# grid-cols-11
+# grid-cols-12
+# col-start-1
+# col-start-2
+# col-start-3
+# col-start-5
+# col-start-6
+# col-end-1
+# col-end-2
+# col-end-3
+# col-end-4
+# col-end-5
+# col-end-6
